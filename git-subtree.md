@@ -36,11 +36,11 @@ git subtree add --prefix=internal/vite-config https://github.com/752337625/vite-
 > "自定义目录/自定义目录/自定义目录",这里注意是本地放代码的位置
 
 ```shell
-git subtree push --prefix=packages/docs https://github.com/752337625/docs-package.git main
-git subtree push --prefix=packages/ui https://github.com/752337625/ui-package.git main
-git subtree push --prefix=internal/eslint-config https://github.com/752337625/eslint-config.git main
-git subtree push --prefix=internal/ts-config https://github.com/752337625/ts-config.git main
-git subtree push --prefix=internal/vite-config https://github.com/752337625/vite-config.git main
+git subtree push --prefix=packages/docs https://github.com/752337625/docs-package.git main --squash
+git subtree push --prefix=packages/ui https://github.com/752337625/ui-package.git main --squash
+git subtree push --prefix=internal/eslint-config https://github.com/752337625/eslint-config.git main --squash
+git subtree push --prefix=internal/ts-config https://github.com/752337625/ts-config.git main --squash
+git subtree push --prefix=internal/vite-config https://github.com/752337625/vite-config.git main --squash
 ```
 
 注意:push 的内容是所有关于子仓库变动的内容,不会包含其他仓库的.但是可能的公用一个 commits 描述.

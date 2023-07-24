@@ -3,7 +3,7 @@
   "description": "蚂蚁仓库",
   "homepage": "https://www.luosifa.top/blog/",
   "private": true,
-  "version": "1.0.0",
+  "version": "4.0.0",
   "author": {
     "name": "𝓜𝓻. 𝓦𝓪𝓷𝓰",
     "email": "15536300457@163.com",
@@ -21,6 +21,11 @@
     "node": ">=16.14.0",
     "pnpm": ">=8.1.0"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "scripts": {
+    "push": "git subtree push --prefix=./ https://github.com/752337625/docs-config.git main --squash"
+  },
+  "devDependencies": {
+    "@ant/eslint-config": "workspace:*",
+    "@ant/ts-config": "workspace:*"
+  }
 }
