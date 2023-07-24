@@ -24,7 +24,8 @@
   "scripts": {
     "clean": "pnpm rimraf .turbo node_modules dist",
     "lint": "pnpm eslint .",
-    "stub": "pnpm unbuild --stub"
+    "stub": "pnpm unbuild --stub",
+    "push": "git subtree push --prefix=internal/vite-config https://github.com/752337625/eslint-config.git main"
   },
   "devDependencies": {
     "@ant/eslint-config": "workspace:*",
