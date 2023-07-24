@@ -76,5 +76,5 @@ git subtree pull --prefix=internal/vite-config https://github.com/752337625/vite
 
 ## 缺点
 
-git 更新/提交无法做到一次完成,需要到子目录中一次执行 git 命令
-
+git 更新/提交无法做到一次完成,需要依次执行有关子项目的 git 命令;
+git 代码出台怒

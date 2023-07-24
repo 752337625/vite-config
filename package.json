@@ -1,0 +1,27 @@
+{
+  "name": "@ant/docs-config",
+  "description": "蚂蚁仓库",
+  "homepage": "https://www.luosifa.top/blog/",
+  "private": true,
+  "version": "1.0.0",
+  "author": {
+    "name": "𝓜𝓻. 𝓦𝓪𝓷𝓰",
+    "email": "15536300457@163.com",
+    "url": "https://www.luosifa.top/blog/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/752337625/ant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/752337625/ant/issues"
+  },
+  "engines": {
+    "node": ">=16.16.0",
+    "pnpm": ">=8.1.0"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {}
+}
