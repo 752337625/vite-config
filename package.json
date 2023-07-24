@@ -18,10 +18,11 @@
     "url": "https://github.com/752337625/ant/issues"
   },
   "engines": {
-    "node": ">=16.16.0",
+    "node": ">=16.14.0",
     "pnpm": ">=8.1.0"
   },
   "scripts": {},
-  "devDependencies": {},
-  "dependencies": {}
+  "devDependencies": {
+    "rimraf": "^5.0.1"
+  }
 }
