@@ -21,9 +21,7 @@
     "node": ">=16.14.0",
     "pnpm": ">=8.1.0"
   },
-  "scripts": {
-    "push": "git subtree push --prefix=./ https://github.com/752337625/docs-config.git main --squash"
-  },
+  "scripts": {},
   "devDependencies": {
     "@ant/eslint-config": "workspace:*",
     "@ant/ts-config": "workspace:*"

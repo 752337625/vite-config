@@ -1,5 +1,7 @@
 # 一个项目管理多个仓库
 
+以下命令基本都需要在顶层目录执行
+
 ## 第一步 先创建一个蚂蚁 GitHub 仓库
 
 ```shell
@@ -31,16 +33,16 @@ git subtree add --prefix=internal/vite-config https://github.com/752337625/vite-
 
 > Git 会遍历所有的 蚂蚁仓库的 commit，从中找出针对 指定子仓库目录的更改，然后把这些更改记录提交到 子仓库的 Git 服务器上
 
-**git subtree push --prefix=自定义目录/自定义目录/自定义目录 仓库地址 分支 --squash**
+**git subtree push --prefix=自定义目录/自定义目录/自定义目录 仓库地址 分支**
 
 > "自定义目录/自定义目录/自定义目录",这里注意是本地放代码的位置
 
 ```shell
-git subtree push --prefix=packages/docs https://github.com/752337625/docs-package.git main --squash
-git subtree push --prefix=packages/ui https://github.com/752337625/ui-package.git main --squash
-git subtree push --prefix=internal/eslint-config https://github.com/752337625/eslint-config.git main --squash
-git subtree push --prefix=internal/ts-config https://github.com/752337625/ts-config.git main --squash
-git subtree push --prefix=internal/vite-config https://github.com/752337625/vite-config.git main --squash
+git subtree push --prefix=packages/docs https://github.com/752337625/docs-package.git main
+git subtree push --prefix=packages/ui https://github.com/752337625/ui-package.git main
+git subtree push --prefix=internal/eslint-config https://github.com/752337625/eslint-config.git main
+git subtree push --prefix=internal/ts-config https://github.com/752337625/ts-config.git main
+git subtree push --prefix=internal/vite-config https://github.com/752337625/vite-config.git main
 ```
 
 注意:push 的内容是所有关于子仓库变动的内容,不会包含其他仓库的.但是可能的公用一个 commits 描述.
