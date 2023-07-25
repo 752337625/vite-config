@@ -1,0 +1,6 @@
+
+> @ant/docs-config@4.0.0 push F:\ant\packages\docs
+> git subtree push --prefix=./ https://github.com/752337625/docs-package.git main --squash
+
+You need to run this command from the toplevel of the working tree.
+ ELIFECYCLE  Command failed with exit code 1.
