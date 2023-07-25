@@ -78,8 +78,7 @@ git subtree pull --prefix=internal/vite-config https://github.com/752337625/vite
 
 ## 缺点
 
-git 更新/提交无法做到一次完成,需要依次执行有关子项目的 git 命令;
+git 更新/提交只能提交到主仓库,子仓库需要依次执行有关子项目的 git 命令;
 git 代码pull，push慢;
 git 代码容易产生冲突，解决不易;
-git 代码必须从顶级目录依次拉去;
-git pull代码需要先add
+git 代码必须主仓库目录依次拉去,子仓库;
