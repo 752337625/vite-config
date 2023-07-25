@@ -33,5 +33,3 @@ A项目依赖B项目
 ```shell
 pnpm add -D @ant/eslint-config --filter @ant/vite-config
 ```
-
-11111
