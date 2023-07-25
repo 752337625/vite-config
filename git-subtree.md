@@ -82,3 +82,4 @@ git 更新/提交只能提交到主仓库,子仓库需要依次执行有关子�
 git 代码pull，push慢;
 git 代码容易产生冲突，解决不易;
 git 代码必须主仓库目录依次拉去,子仓库;
+项目有代码没提交，需要提交后才能执行pull:Working tree has modifications. Cannot add.
